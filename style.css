@@ -1,0 +1,22 @@
+.alert-success {
+    background-color: lightgreen;
+    margin: 8px;
+    padding: 16px;
+}
+
+.alert-info {
+    background-color: lightblue;
+    margin: 8px;
+    padding: 16px;
+}
+
+.alert-warning {
+    background-color: lightyellow;
+    margin: 8px;
+    padding: 16px;
+}
+
+.alert-danger {
+    background-color: lightcoral;
+    
+}
