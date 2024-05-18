@@ -1,2 +1,0 @@
-multiple word class in html, reference in css 
-- https://teamtreehouse.com/community/targeting-class-with-multiple-words
