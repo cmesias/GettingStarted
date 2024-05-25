@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Labels Demo</title>
+    </head>
+
+    <body>
+        <h1>Labels</h1>
+        <h2>Register</h2>
+        <form>
+            <!-- Email -->
+            <label>
+                Enter Email: 
+                <input type="email" name="email" placeholder="Email">
+            </label>
+            <br>
+
+            <!-- Password -->
+            <label>
+                Enter Password: 
+                <input type="password" name="password" placeholder="Password" minlength="8" maxlength="16">
+            </label>
+            <br>
+
+            <!-- Checkbox -->
+            <label>
+                <input type="checkbox" name="tos-agree">
+                I agree to the terms of service
+            </label>
+
+            <!-- Radio buttons -->
+            <p>Select shirt size</p>
+            <input type="radio" name="shirt-size" value="XS"> XS <br>
+            <input type="radio" name="shirt-size" value="S"> S <br>
+            <input type="radio" name="shirt-size" value="M"> M <br>
+            <input type="radio" name="shirt-size" value="L"> L <br>
+
+            <!-- Submit Button -->
+            <!-- Notes: button elements automatically have a type="submit" to them, you can change it to type="button" os it doesn't submit forms-->
+            <button type="submit">Submit Form</button>
+
+            <!-- Submit, this type usually never used. Also you can't format the text like a button element can. -->
+            <!-- <input type="submit" value="Gooooooooooooooooo!"> -->
+        </form>
+    </body>
+</html>
