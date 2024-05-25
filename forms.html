@@ -10,7 +10,55 @@
         <h1>Forms Demo!</h1>
         <!-- Note: All inputs in a form get sent together if all inputs are in the same form element -->
         <form>
-            <input name="city" type="text" placeholder="Enter a city">
+            <input 
+            name="city" 
+            type="text" 
+            placeholder="Enter a city" 
+            minlength="2" 
+            maxlength="10" 
+            required>
+
+        </form>
+        <button>Our <b>First</b> button!</button>
+
+        <h2>Register</h2>
+        <form>
+            <!-- Random button -->
+            <button type="button">Click Me</button>
+            <!-- Emails -->
+            <input type="email" name="email" placeholder="Email">
+
+            <!-- Password -->
+            <input type="password" name="password" placeholder="Password" minlength="8" maxlength="16">
+
+            <!-- Checkboxes -->
+            <input type="checkbox" name="tos-agree"> I agree to the terms of service
+
+            <!-- Radio buttons -->
+            <p>Select shirt size</p>
+            <input type="radio" name="shirt-size" value="XS"> XS <br>
+            <input type="radio" name="shirt-size" value="S"> S <br>
+            <input type="radio" name="shirt-size" value="M"> M <br>
+            <input type="radio" name="shirt-size" value="L"> L <br>
+
+            <!-- Submit Button -->
+            <!-- Notes: button elements automatically have a type="submit" to them, you can change it to type="button" os it doesn't submit forms-->
+            <button type="submit">Submit Form</button>
+
+            <!-- Submit, this type usually never used. Also you can't format the text like a button element can. -->
+            <!-- <input type="submit" value="Gooooooooooooooooo!"> -->
+        </form>
+
+        <!-- Other input types -->
+        <h2>Other Input Types</h2>
+        <form>
+
+            <!-- Color picker -->
+            Pick a color: <input type="color" name="color">
+            Enter Your Birthday: <input type="date" name="birthday">
+            How Happy Are You? <input type="range" name="happiness" min="1" max="10" step="2">
+            <button type="submit">Submit Form</button>
+
         </form>
 
     </body>
