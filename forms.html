@@ -53,13 +53,48 @@
         <h2>Other Input Types</h2>
         <form>
 
-            <!-- Color picker -->
-            Pick a color: <input type="color" name="color">
-            Enter Your Birthday: <input type="date" name="birthday">
-            How Happy Are You? <input type="range" name="happiness" min="1" max="10" step="2">
+            Pick a color: <input type="color" name="color">                                         <!-- Color picker -->
+            Enter Your Birthday: <input type="date" name="birthday">                                <!-- Date picker -->
+            How Happy Are You? <input type="range" name="happiness" min="1" max="10" step="1">      <!-- Range picker -->
+            
+            <!-- Drop Down Menu -->
+            <br>
+            Select a State
+            <select name="state">
+                <option value="">--Choose Your State--</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+            </select>
+            <br>
+
+            <!-- Large Text Area -->
+            Please Draft an Exquisite Essay:
+            <textarea name="essay" clos="30" rows="10" minlength="5" maxlength="200">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus assumenda minima delectus ab accusantium vero facilis, fugit dignissimos voluptatibus repellat?</textarea>
+
+            <!-- Submti button -->
             <button type="submit">Submit Form</button>
 
         </form>
+
+        <!-- Advanced Form Inputs -->
+        <h2>Advanced Form Inputs</h2>
+        
+        <!-- Drop Down Menus -->
+        <h3>Drop Down Menu</h3>
+        <select name="animal">
+            <option value="">--Choose Your Pet--</option>"
+            <option value ="cat">Cat</option>
+            <option value ="dog">Dog</option>
+            <option value ="porcupine">Porcupine</option>
+        </select>
+        <br><br><br>
+
+        <!-- Larger Text Areas -->
+        Write Your Story:
+        <br>
+        <textarea name="biogrophy" cols="100" rows="10"></textarea>
 
     </body>
 </html>
