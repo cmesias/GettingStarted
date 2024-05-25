@@ -3,3 +3,7 @@ multiple word class in html, reference in css
 
 rounded borders:
 - https://www.w3schools.com/css/css3_borders.asp
+
+tips on quokka
+- https://github.com/wallabyjs/quokka/issues/556
+- @ArtemGovorov: After you save Quokka scratch file (first time only), you need to restart Quokka on the saved file using Start on existing file command (Cmd/Ctrl + K, Q).
