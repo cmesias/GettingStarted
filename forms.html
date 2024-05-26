@@ -111,6 +111,24 @@
             <!-- https://www.reddit.com/search?q=pickles&sort=top -->
         </form>
 
+        <!-- Choose a file -->
+        <h2>Upload a File</h2>
+        <form>
+            <label>
+                <input type="file">
+            </label>
+        </form>
+        
+        <!-- File Submission -->
+        <h2>File Submission</h2>
+        <form method="post" enctype="multipart/form-data">
+            <label>
+                This won't work, but go ahead and pick a file!
+                <input type="file" name="my-file">
+            </label>
+            <button type="submit">Upload File</button>
+        </form>
+
         <br><br><br><br><br><br><br><br><br><br><br><br>
     </body>
 </html>
