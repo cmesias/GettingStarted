@@ -96,5 +96,21 @@
         <br>
         <textarea name="biogrophy" cols="100" rows="10"></textarea>
 
+        <!-- Search Reddit -->
+        <h2>Search Reddit</h2>
+        <form action="https://www.reddit.com/search" method="get">
+            <input type="text" name="q" placeholder="Search Term">
+            <br>
+            Sort by:
+            <select name="sort">
+                <option value ="top">Top</option>
+                <option value ="new">New</option>
+                <option value ="comments">Comments</option>
+            </select>
+            <button type="submit">Search</button>
+            <!-- https://www.reddit.com/search?q=pickles&sort=top -->
+        </form>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br>
     </body>
 </html>

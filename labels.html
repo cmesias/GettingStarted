@@ -12,13 +12,13 @@
         <h2>Register</h2>
         <form>
             <!-- Email -->
-            <label>
-                Enter Email: 
-                <input type="email" name="email" placeholder="Email">
-            </label>
+            <!-- Label using for & id -->
+            <label for="email"> Enter Email: </label>
+                <input type="email" name="email" placeholder="Email" id="email">
             <br>
 
             <!-- Password -->
+            <!-- Label using nesting -->
             <label>
                 Enter Password: 
                 <input type="password" name="password" placeholder="Password" minlength="8" maxlength="16">
@@ -33,10 +33,26 @@
 
             <!-- Radio buttons -->
             <p>Select shirt size</p>
-            <input type="radio" name="shirt-size" value="XS"> XS <br>
-            <input type="radio" name="shirt-size" value="S"> S <br>
-            <input type="radio" name="shirt-size" value="M"> M <br>
-            <input type="radio" name="shirt-size" value="L"> L <br>
+            <label>
+                <input type="radio" name="shirt-size" value="XS"> 
+                XS 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="shirt-size" value="S"> 
+                S 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="shirt-size" value="M"> 
+                M 
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="shirt-size" value="L"> 
+                L 
+            </label>
+            <br>
 
             <!-- Submit Button -->
             <!-- Notes: button elements automatically have a type="submit" to them, you can change it to type="button" os it doesn't submit forms-->
