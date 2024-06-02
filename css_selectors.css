@@ -1,0 +1,138 @@
+#cat {
+    width: 300px;
+}
+
+h1 {
+    color: purple;
+}
+
+p:first-of-type::first-letter {
+    font-size: 2em;
+}
+
+
+/* This selects the h3 tags that come directly after an h2 tag */
+h2 + h3 {
+    color: red;
+}
+
+/* The 3rd of an li group will have a blueviolet background color */
+/*li:nth-of-type(3) {
+    background-color: green;
+}*/
+
+/* Every 2nd li will have a lavender background color */
+li:nth-of-type(2n) {
+    background-color: lavender;
+}
+
+/* Every 2nd + 1 (every odd number) li will have a lavender background color */
+li:nth-of-type(2n + 1) {
+    background-color: magenta;
+}
+
+/* Selects the li that are after a #works id and sets the default to 15px */
+#works li {
+    font-size: 16px;
+}
+
+/* Selects the li that are immedietly ONLY after a #works id 
+* (in this case it is the parent li's of the other li's that are nested inside) 
+* Direct descendant combinator/selector
+*/
+#works > li {
+    font-size: 1.5em;
+}
+
+
+/* Selects the li just under the </ul> end tag */
+#works + li {
+    background-color: black;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+/* Makes hovered links underline*/
+nav a:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+/* makes every first paragraphs with siblings a certian color */
+p:first-of-type {
+    color: purple;
+}
+
+/* This selects the p tags that come after an h3 tag AND that same h3 has to come after an h2 */
+p:last-of-type {
+    color: lightseagreen;
+}
+
+/* Use selector attributes type to chage input tags with text to a background color of lightskyblue */
+input[type="text"] {
+    background-color: lightskyblue;
+}
+
+/* when an input is focused, change the inside color of it to greenyellow */
+input:focus {
+    background-color: greenyellow;
+}
+
+/* Select an attribute from an img element/tag that has an attribute with 'unsplash.com' in it */
+img[src*="unsplash.com"] {
+    width: 100px;
+}
+
+
+/* content-box is the default
+ * Content area is 100px
+ * Don’t know how wide element is
+ */
+.div-1 {
+    box-sizing: content-box;
+    width: 100px;
+    padding: 1em;
+    border: solid 5px black;
+}
+
+/* Element width is 100px
+ * Don’t know width of content area
+ * Often, easier to work with
+ */
+.div-2 {
+    box-sizing: border-box;
+    width: 100px;
+    padding: 1em;
+    border: solid 5px black;
+  }
+
+  div:hover {
+    outline: solid 5px red;
+    outline-offset: 5px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Note: The order which in 'input[type="text"]' and 'input:focus' above MATTERS */
+
