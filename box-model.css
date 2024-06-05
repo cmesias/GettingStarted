@@ -1,0 +1,22 @@
+
+h1 {
+    background-color: lightblue;
+    width: 50%;
+    font-size: 5rem;
+}
+
+h2 {
+    background-color: lightcoral;
+    width: 50%;
+}
+
+img {
+    width: 40%;
+    max-width: 300px;
+    border: red 10px dashed;
+}
+
+p {
+    width: 50%;
+    min-width: 500px;
+}

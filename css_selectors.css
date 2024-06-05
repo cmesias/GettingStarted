@@ -88,14 +88,19 @@ img[src*="unsplash.com"] {
     width: 100px;
 }
 
+.div-head {
+    outline: solid 5px black;
+    outline-offset: 5px;
+}
+
 
 /* content-box is the default
  * Content area is 100px
  * Don’t know how wide element is
  */
-.div-1 {
+.div-content-box {
     box-sizing: content-box;
-    width: 100px;
+    width: 500px;
     padding: 1em;
     border: solid 5px black;
 }
@@ -104,17 +109,17 @@ img[src*="unsplash.com"] {
  * Don’t know width of content area
  * Often, easier to work with
  */
-.div-2 {
+.div-border-box {
     box-sizing: border-box;
-    width: 100px;
+    width: 500px;
     padding: 1em;
     border: solid 5px black;
   }
 
-  div:hover {
+.div-content-box:hover, .div-border-box:hover {
     outline: solid 5px red;
     outline-offset: 5px;
-  }
+}
 
 
 
