@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    background-color: lightcoral;
+    width: 50%;
+    height: 100px;
+    margin: 2em;
+    display: inline;
+}
+
+a {
+/*     background-color: lightseagreen;
+    margin: 2em; // Since a tags are inline, the margin left & right are the only ones affected 
+    width: 300px;
+    height: 70px;
+    display: block; */
+}
+
+nav {
+    height: 80px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between; /* Horizontally (main axis, which is from left to right of an item) center/space-between items */
+    align-items: center;            /* Vertically (cross axis, which is from top to bottom of an item) center items */
+    /* flex-direction: row-reverse;    Reverses the main axis, it will now be from right to left */
+}
+
+nav a {
+    font-size: 2em;
+    margin: 0 1em;
+}
+
+#container {
+    border: black 1px solid;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#container section {
+    box-sizing: border-box;
+    width: 50%;
+    border: red 1px solid;
+    display: inline-block;
+    text-align: center;
+}
