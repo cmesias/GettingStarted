@@ -11,7 +11,8 @@ tips on quokka
 How to Center an image in a div
 - https://www.freecodecamp.org/news/how-to-center-an-image-in-css/
 
-
+Javacript attachment
+- https://www.w3schools.com/tags/att_script_src.asp
 
 
 
